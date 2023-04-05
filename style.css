@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkslategrey;
+    background-image: url('https://images.unsplash.com/photo-1503327431567-3ab5e6e79140?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80');
+    background-size:cover;
+}
+
+.card {
+    background-color:#000000d0;
+    color:white;
+    padding: 1em;
+    border-radius: 40px;
+    max-width: 270px;
+    width: 100%;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 1em;
+    border-radius: 50%;
+    height: 2.6em;
+    width: 2.6em;
+    outline: none;
+    background-color: darkgray;
+    color: #0d0b0b;
+    cursor: pointer;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em;
+    border-radius: 18px;
+    background-color: darkgray;
+    color: black;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+button:hover{
+    background:#7c7c7c6b;
+}
+
+h1.temp{
+    margin:0;
+    margin-bottom:0.5em;
+}
+
+.flex{
+    display:flex;
+    align-items:center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left:3px;
+}
+ 
+.weather.loading{
+    visibility:hidden;
+    max-height:20px;
+}
